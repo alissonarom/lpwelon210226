@@ -700,7 +700,7 @@ overflow-x: hidden!important;
 }
 
 .degrade {
-  background: linear-gradient(90deg, #CD975C, #FFE2B5, #BE9455); /* Ajuste as cores do degradê */
+  background: linear-gradient(90deg, #11162e, #467df5, #ffffff); /* Ajuste as cores do degradê */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
