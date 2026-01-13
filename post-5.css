@@ -27,14 +27,17 @@
 .video-wrapper {
   width: 100%;
   max-width: 520px;
+  height: 560px; /* altura fixa */
+  overflow: hidden; /* corta o excedente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .video-wrapper video {
-  width: 60%;
-  height: auto;
-  aspect-ratio: 9 / 16;
-  object-fit: cover;
-  display: block;
+  width: 120%;        /* deixa mais largo */
+  height: 100%;       /* força ocupar toda a altura */
+  object-fit: cover;  /* corta topo e base */
 }
 
 /* MOBILE */
