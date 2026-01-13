@@ -58,6 +58,19 @@
   }
 }
 
+/* MOBILE */
+@media (max-width: 767px) {
+
+.containerWill {
+  display: contents;
+}
+
+.containerText {
+  margin-bottom: 40px !important;
+}
+
+}
+
 /* CONTADOR TEMPO */
 
 .countdown-bar {
