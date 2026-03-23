@@ -142,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="countdown-bar">
 							<div class="countdown-inner">
 								<span class="countdown-text">
-								<strong> LANÇAMENTO EUA 21/03/2026</strong>
+								<strong> LANÇAMENTO Alphaville, São Paulo - SP 10/06/2026</strong>
 								</span>
 
 								<div class="countdown-timer">
@@ -1438,46 +1438,47 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/ocodigodaconexao.com\/wp-
 		<script>(()=>{class RocketElementorPreload{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}t(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this.i(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach((t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this.o(t)}catch(t){}}))}o(t){const e=JSON.parse(t.dataset.settings),i=e.m||e.animation_delay||0,n=e[this.animationSettingKeys.find((t=>e[t]))];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let o=setTimeout((()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this.l(t,e)}),i);window.addEventListener("rocket-startLoading",(function(){clearTimeout(o)}))}i(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach((t=>{e.forEach((e=>{i.push(t+e)}))})),i}l(t,e){this.i().forEach((t=>delete e[t])),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorPreload;requestAnimationFrame(t.t.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorPreload.run)})();
 		</script>
 		<script>
-			;(function () {
-			  // Data alvo: 21/03/2026 00:00:00 (horário local)
-			  const targetDate = new Date(2026, 2, 21, 0, 0, 0).getTime()
-			  // mês 2 = março
-			
-			  const daysEl = document.getElementById('cd-days')
-			  const hoursEl = document.getElementById('cd-hours')
-			  const minutesEl = document.getElementById('cd-minutes')
-			  const secondsEl = document.getElementById('cd-seconds')
-			
-			  function updateCountdown() {
-			    const now = new Date().getTime()
-			    const distance = targetDate - now
-			
-			    if (distance <= 0) {
-			      daysEl.textContent = '00'
-			      hoursEl.textContent = '00'
-			      minutesEl.textContent = '00'
-			      secondsEl.textContent = '00'
-			      clearInterval(timer)
-				
-			      // 👉 opcional: ação quando zerar
-			      document.querySelector('.countdown-text strong').textContent = '🔥 LANÇAMENTO LIBERADO'
-			      return
-			    }
-			
-			    const days = Math.floor(distance / (1000 * 60 * 60 * 24))
-			    const hours = Math.floor((distance / (1000 * 60 * 60)) % 24)
-			    const minutes = Math.floor((distance / (1000 * 60)) % 60)
-			    const seconds = Math.floor((distance / 1000) % 60)
-			
-			    daysEl.textContent = String(days).padStart(2, '0')
-			    hoursEl.textContent = String(hours).padStart(2, '0')
-			    minutesEl.textContent = String(minutes).padStart(2, '0')
-			    secondsEl.textContent = String(seconds).padStart(2, '0')
-			  }
-		  
-			  updateCountdown()
-			  const timer = setInterval(updateCountdown, 1000)
-			})()
-		</script>
+;(function () {
+  // Data alvo: 10/06/2026 00:00:00 (horário local)
+  const targetDate = new Date(2026, 5, 10, 0, 0, 0).getTime()
+  // mês 5 = junho
+
+  const daysEl = document.getElementById('cd-days')
+  const hoursEl = document.getElementById('cd-hours')
+  const minutesEl = document.getElementById('cd-minutes')
+  const secondsEl = document.getElementById('cd-seconds')
+
+  function updateCountdown() {
+    const now = new Date().getTime()
+    const distance = targetDate - now
+
+    if (distance <= 0) {
+      daysEl.textContent = '00'
+      hoursEl.textContent = '00'
+      minutesEl.textContent = '00'
+      secondsEl.textContent = '00'
+      clearInterval(timer)
+
+      document.querySelector('.countdown-text strong').textContent =
+        '🔥 LANÇAMENTO LIBERADO'
+
+      return
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24))
+    const hours = Math.floor((distance / (1000 * 60 * 60)) % 24)
+    const minutes = Math.floor((distance / (1000 * 60)) % 60)
+    const seconds = Math.floor((distance / 1000) % 60)
+
+    daysEl.textContent = String(days).padStart(2, '0')
+    hoursEl.textContent = String(hours).padStart(2, '0')
+    minutesEl.textContent = String(minutes).padStart(2, '0')
+    secondsEl.textContent = String(seconds).padStart(2, '0')
+  }
+
+  updateCountdown()
+  const timer = setInterval(updateCountdown, 1000)
+})()
+</script>
 <span id="elementor-device-mode-wpr" class="elementor-screen-only"></span><span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;" class="e-font-icon-svg-symbols"></svg><script type="text/javascript" id="" charset="">(function(a,e,b,f,g,c,d){a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};c=e.createElement(f);c.async=1;c.src="https://www.clarity.ms/tag/"+g;d=e.getElementsByTagName(f)[0];d.parentNode.insertBefore(c,d)})(window,document,"clarity","script","uiv8hvv6ph");</script><iframe height="0" width="0" style="display: none; visibility: hidden;" src="./saved_resource.html"></iframe><iframe height="0" width="0" style="display: none; visibility: hidden;" src="./saved_resource(1).html"></iframe><script type="text/javascript" id="" charset="">(function(){var h="https://pay.kiwify.com.br/",k="utm_source utm_medium utm_campaign utm_content utm_term Posicionamento".split(" "),c=window.location.search,e=new URLSearchParams(c),d=[];k.forEach(function(b){e.has(b)&&d.push(e.get(b))});var f=d.length===0?"null":d.join("_");document.querySelectorAll("a").forEach(function(b){if(b.href&&b.href.indexOf(h)!==-1){var g="\x26src\x3d"+encodeURIComponent(f)+"\x26sck\x3d"+encodeURIComponent(f),a=b.href;c&&(a=a.indexOf("?")===-1?a+c:a+("\x26"+c.substring(1)));
 a=c||a.indexOf("?")!==-1?a+g:a+("?"+g.substring(1));b.href=a}})})();</script></body></html>
